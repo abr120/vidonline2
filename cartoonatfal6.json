@@ -1,0 +1,38 @@
+[
+  {
+    "title":"الرئيسية",
+    "drawable":"ic_home",
+    "submenu":"التصنيفات",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Categories",
+        "provider":"overview",
+        "arguments":[
+          "https://raw.githubusercontent.com/abr120/vidonline2/master/HomeOverview.json"
+
+        ]
+      }
+    ]
+  },
+  
+
+
+
+
+  {
+    "title":"التقييم والطلبات",
+    "drawable":"ic_rate",
+    "submenu":"التواصل معنا والتقييم",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"التقييم وطلب الكرتون",
+        "provider":"overview",
+        "arguments":[
+          "https://raw.githubusercontent.com/abr120/vidonline2/master/Settings.json"
+        ]
+      }
+    ]
+  }
+]
